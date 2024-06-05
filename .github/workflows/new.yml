@@ -34,6 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo "::error title=Team doesn't exist or token doesn't have access::The team doesn't exist or the token doesn't have access to it"
-          # echo "::error title=Team doesn't exist or token doesn't have access"
+          echo "::debug this is a debug message"
+          echo "::notice title=this is an notice title::this is an notice description"
+          echo "::warning title=this is an warning title::this is an warning description"
+          echo "::error title=this is an error title::this is an error description"
           # exit 1
